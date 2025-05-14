@@ -21,7 +21,12 @@ This system aims to:
 - **Graphical User Interface (GUI)** for easy interaction
 - Provides relevant responses by executing matched SQL queries
 
----
+## MySQL Integration with Dual Tables
+
+- Connects to a MySQL database using `mysql.connector`
+- Uses **two distinct tables**:
+  - `chat_response`: Stores fixed replies for greetings and small talk
+  - `retail_data`: Contains structured retail-related data for dynamic query execution and data retrieval
 
 ## How It Works
 
